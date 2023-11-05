@@ -5,10 +5,6 @@ import networkx as nx
 # Atenção!
 # O script deve ser executado no mesmo diretório onde está o arquivo docker-compose.yaml.
 # Sua saída será registrada no mesmo diretório.
-
-with open('docker-compose.yaml', 'r') as file:
-    # Carregando o conteúdo do YAML para uma estrutura de dados Python
-    docker_compose_data = yaml.safe_load(file)
     
 def convert_and_save(G, file_name):
     """Converte rede complexa e registra arquivo json"""
@@ -49,5 +45,11 @@ def generate_docker_compose_network(docker_compose_data):
             
     convert_and_save(G, 'docker_compose_network.json')
 
-# Chamando a função com os dados do docker-compose para gerar o grafo
-generate_docker_compose_network(docker_compose_data)
+
+if __name__ == '__main__':
+    with open('docker-compose.yaml', 'r') as file:
+        # Carregando o conteúdo do YAML para uma estrutura de dados Python
+        docker_compose_data = yaml.safe_load(file)
+        
+    # Chamando a função com os dados do docker-compose para gerar o grafo
+    generate_docker_compose_network(docker_compose_data)
