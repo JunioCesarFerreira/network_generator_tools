@@ -17,6 +17,8 @@ Todo script deste repositório deve ser copiado e executado no diretório onde e
 
 `docker-analysis.py`: Este monta um grafo onde os vértices são os contêiners e suas ligações indicam se estão na mesma rede docker.
 
+`sql-tables-analysis.py`: Realiza análise de relações entre tabelas em scripts SQL. Monta grafo onde os vértices são as tabelas e as arestas indicam relações.
+
 
 ## Contribuições
 
