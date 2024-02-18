@@ -28,5 +28,5 @@ Contribuições são bem-vindas!
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](https://github.com/JunioCesarFerreira/network_generator_tools/blob/main/LICENSE) para detalhes.
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
