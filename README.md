@@ -21,6 +21,8 @@ Todo script deste repositório deve ser copiado e executado no diretório onde e
 
 [`go-dependencies`](./scripts/go-dependencies.py): Realiza análise de relações de dependências entre *packages* em um projeto **Go**. Monta grafo direcionado onde os vértices são os *packages* e as arestas indicam as dependências.
 
+[`go-expanded-dependencies`](./scripts/go-expanded-dependencies.py): Realiza análise de relações de dependências entre *packages* internos e externos em um projeto **Go**. Monta grafo direcionado onde os vértices são os *packages* e as arestas indicam as dependências.
+
 
 ## Contribuições
 
