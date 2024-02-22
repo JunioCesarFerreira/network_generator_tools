@@ -10,7 +10,7 @@ As ferramentas deste repositório são desenvolvidas para gerar entradas que pod
 
 ## Como usar
 
-Todo script deste repositório deve ser copiado e executado no diretório onde esteja o arquivo de interesse de análise. 
+Todo script deste repositório deve ser copiado e executado no diretório onde esteja o arquivo de interesse de análise. Alternativamente, você pode incluir o caminho do diretório de interesse diretamente no script.
 
 
 ## Scripts
